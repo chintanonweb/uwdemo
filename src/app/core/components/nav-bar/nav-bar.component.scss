@@ -1,0 +1,34 @@
+.nab-bar-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #162E51;
+}
+
+.nab-bar-container li {
+  float: left;
+  border-right: 1px solid #fff;
+}
+
+.nab-bar-container li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 25px;
+  text-decoration: none;
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.nab-bar-container .active {
+  background: #0079ae;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  ul {
+    display: flex;
+
+  }
+}

@@ -1,0 +1,93 @@
+<ngx-ui-loader></ngx-ui-loader>
+<div class="page-padding mrt-1">
+    <div class="page-sub-header-font">
+        Case Details
+    </div>
+    <div class="dflex details-container">
+        <div class="mrt-1 case-details-container width-30">
+            <span>Case # :</span><span class="mrl-1">{{caseNumber}}</span>
+            <span *ngIf="name" class="name-container">
+                <span class="mrl-1 name-lable">Name :</span>
+                <span class="mrl-1">{{name}}</span>
+            </span>
+        </div>
+        <div class="width-60 date-container">
+            <form [formGroup]="formData" (ngSubmit)="search()">
+                <div class="row case-search">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <custom-input-date class="qq" #d formControlName="startDate" [id]="getId('startDate')"
+                            [required]="false" [field]="fields.startDate" [minDate]="dobMinDate" [maxDate]="dobMaxDate">
+                        </custom-input-date>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 end-date">
+                        <custom-input-date #d formControlName="endDate" [id]="getId('endDate')" [required]="false"
+                            [field]="fields.endDate" [minDate]="dobMinDate" [maxDate]="dobMaxDate">
+                        </custom-input-date>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-12">
+                        <button class="btn search-btn date-search-btn" type="submit" [attr.id]="getId('submitBtn')"
+                            [disabled]="formData.invalid">Go</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="mrt-2" *ngIf="dispositionsList.length">
+        <table class="table table-cl case-details-table">
+            <thead class="table-head">
+                <tr>
+                    <th scope="col" class="th-br">Case #</th>
+                    <th scope="col" class="th-br">EDG/EDBC Run date</th>
+                    <th scope="col" class="th-br">Disposition Date</th>
+                    <th scope="col" class="th-br">Case Action Type</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let case of dispositionsList; let i=index;">
+                    <td class="td-br">{{case.caseNum}}</td>
+                    <td class="td-br">{{case.edbcRunDt | date:'medium'}}</td>
+                    <td class="td-br">{{case.diActionDt | date:'medium'}}</td>
+                    <td class="">{{case.caseModeCode.description}}</td>
+                    <td class="td-pd" (click)="sortOn(i)">
+                        <app-case-details-table [i]="i" [sortedTable]="sortedTable" [direction]="direction"
+                            [disposedSegments]="case.disposedSegments"
+                            (sortByParent)="sortBy($event)"></app-case-details-table>
+                        <div class="generate-report-btn"><button class="btn report-btn">Generate Report</button></div>
+                    </td>
+                    <!-- <td class="td-pd">
+                        <table class="table ">
+                            <thead class="">
+                                <tr>
+                                    <th scope="col" class="th-bt th-bl-0 sortable-column" (click)="sortBy(i,'program')">Program</th>
+                                    <th scope="col" class="th-bt">EDG #</th>
+                                    <th scope="col" class="th-bt sortable-column" (click)="sortBy(i,'toa')">TOA</th>
+                                    <th scope="col" class="th-bt sortable-column" (click)="sortBy(i,'benefitStartDt')">Benefit Start Dt</th>
+                                    <th scope="col" class="th-bt">Benefit End Dt</th>
+                                    <th scope="col" class="th-bt th-br-0">Application Dt</th>
+                                    <th scope="col" class="th-bt">Application Dt</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let program of case.disposedSegments">
+                                    <td class="th-bl-0">{{program.program}}</td>
+                                    <td>{{program.edgNum}}</td>
+                                    <td>{{program.toa}}</td>
+                                    <td>{{program.benefitStartDt | date: 'mediumDate'}}</td>
+                                    <td>{{program.benefitEndDt | date: 'mediumDate'}}</td>
+                                    <td class="th-br-0">{{program.applicationDt | date: 'mediumDate'}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="generate-report-btn"><button class="btn report-btn">Generate Report</button></div>
+                    </td> -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="mlt-2 error" *ngIf="!dispositionsList.length">
+        <div class="ml-2 " *ngIf="errorFlag; else noresults">{{errorMsg}}</div>
+        <ng-template #noresults>{{noDispositionsMsg}}</ng-template>
+    </div>
+</div>

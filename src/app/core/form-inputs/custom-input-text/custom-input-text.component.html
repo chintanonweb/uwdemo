@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-3 text-right">
+        <label [attr.for]="id" [attr.class]="'labelColWidth text-nowrap text-left'">
+            {{field.label}}
+            <span *ngIf="required"> <i class="fas fa-asterisk" alt="required"><span
+                        class="sr-only">required</span></i></span>
+
+        </label>
+    </div>
+    <div class="col">
+        <div class="">
+            <input [attr.type]="'text'" [(ngModel)]="value" [attr.id]="id" [attr.readonly]="readonly"
+                [disabled]="disabled" [attr.placeholder]="field.placeholder" [attr.maxlength]="field.maxlength"
+                (blur)="onTouched($event)" (keyup)="maskData($event)" [attr.aria-required]="required"
+                [attr.aria-describedby]="err_id">
+
+        </div>
+        <span aria-live="assertive" [attr.id]="err_id"> <i class="field-error">{{error}}</i> </span>
+    </div>
+</div>

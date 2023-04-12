@@ -1,0 +1,91 @@
+.head-con {
+    padding-top: 0.1rem;
+    //padding-bottom: 0.5rem;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 2.333rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.logo {
+    width: 300px;
+}
+
+.user-info {
+    text-align: right;
+    color: #333333;
+    font-size: .875rem;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.logout {
+    cursor: pointer;
+    color: #0079ae;
+}
+
+.pf-name {
+    margin-right: 10px
+}
+
+.mrc-5 {
+    margin-right: 5px;
+}
+
+.dot {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.separetor2 {
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+.help {
+    text-decoration: underline;
+}
+
+.page-img {
+    width: 135px
+}
+
+.page-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-title-text {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.header-links-text {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/*right top links on header */
+.header-links-text:hover,
+.header-links-text:focus {
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 600px) {
+    .page-img {
+        width: 55px;
+    }
+
+    .page-title-text {
+        font-size: 1rem;
+    }
+}

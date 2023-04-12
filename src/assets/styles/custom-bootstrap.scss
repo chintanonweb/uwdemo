@@ -1,0 +1,23 @@
+/*
+  Override Bootstrap sass variables which are required.
+  If any style/class needs to be added specific to the application should go to theme.scss file.
+*/
+
+$blue: #0071bc;
+$red: #e31c3d;
+$yellow: #fdb81e;
+$green: #2e8540;
+$gray-100: #f4f5f6;
+$gray-800: #5b616b;
+$input-placeholder-color: #c0c0c0;
+
+$font-family-sans-serif: Helvetica, Arial, sans-serif;
+$font-size-base: 0.875rem;
+$font-size-lg: 1rem;
+$font-size-sm: 0.75rem;
+
+$body-color: #202020;
+$body-bg: $gray-100;
+//$enable-rounded: false;
+$enable-shadows: false;
+$enable-gradients: true;

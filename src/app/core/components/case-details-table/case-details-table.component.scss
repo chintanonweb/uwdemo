@@ -1,0 +1,12 @@
+.sortable-column {
+    cursor: pointer;
+    color: #10498f;
+}
+.sub-details-table th{
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.sub-details-table tr:nth-child(even) {
+    background-color:transparent !important;
+}

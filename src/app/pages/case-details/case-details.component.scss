@@ -1,0 +1,121 @@
+.case-details-container{
+    margin-left: 5rem;
+    font-size: .875rem;
+}
+.mrl-3{
+    margin-left: 3rem;
+}
+.mrl-10{
+    margin-left: 10rem;
+}
+.case-details-table,.case-details-table td, .case-details-table th {
+    border: 1px solid #b1aeae;
+    font-size: .75rem;
+}
+
+// .th-br {
+//     border-right: 3px solid #FFF !important;
+// }
+
+// .td-br {
+//     border-right: 3px solid #b1aeae !important;
+// }
+.td-pd{
+    padding: 0px !important;
+}
+.th-bt{
+    border-top: 0px !important;
+}
+.generate-report-btn{
+    text-align: left;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.width-50{
+    width: 50%;
+}
+.width-30 {
+    width: 30%;
+}
+.width-70 {
+    width: 70%;
+}
+.width-20 {
+    width: 20%;
+}
+.date-container{
+    border: 1px solid #8b8888;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.width-80{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.date-text{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.date-search-btn{
+    height: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.3rem;
+    font-weight: 700;
+}
+#startDate{
+    width: 10rem;
+}
+.sortable-column {
+    cursor: pointer;
+    color: #10498f;
+}
+
+.th-bl-0 {
+    border-left: 0px !important;
+}
+.th-br-0 {
+    border-right: 0px !important;
+}
+.table th, .table td {
+    border: 0.5px solid #b1aeae !important;
+}
+
+.error {
+    padding: 2rem 5rem;
+}
+@media screen and (max-width: 600px) {
+    .case-details-table{
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .case-details-container{
+        width: 100%;
+    }
+    .date-container{
+        width: 100%;
+    }
+    .details-container{
+        display: block;
+    }
+    .case-details-container{
+        margin-left: 0rem !important;
+    }
+    .name-container{
+        display: block;
+        margin-bottom: 16px;
+    }
+    .name-lable{
+        margin-left: 0px !important;
+    }
+    .end-date{
+        margin-top: 10px;
+    }
+    .date-search-btn{
+        margin-top: 10px;
+    }
+}

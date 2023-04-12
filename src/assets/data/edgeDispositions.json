@@ -1,0 +1,1413 @@
+  {
+      "status": "SUCCESS",
+      "errorDetail": null,
+      "data": {
+          "output": {
+              "edgDispositions": [
+                  {
+                      "caseNum": 1001011693,
+                      "diActionDt": "2015-01-07T10:02:48.000+0000",
+                      "diTransId": 99736980,
+                      "createDt": "2015-01-07T10:02:43.000+0000",
+                      "edbcRunDt": "2015-01-07T10:02:47.000+0000",
+                      "disposedSegments": [
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-01-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-01-31T06:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 4789241486,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-02-01T06:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 4789241487,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-01-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-01-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 4789241477,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-02-01T06:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 4789241480,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-01-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-01-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 4789241483,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-02-01T06:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 4789241485,
+                              "status": "C"
+                          }
+                      ],
+                      "previousEdbcRunDt": "2014-12-07T17:58:37.000+0000",
+                      "nextEdbcRunDt": "2015-02-01T21:52:53.000+0000",
+                      "previousDispositionDt": "2014-12-07T17:58:38.000+0000",
+                      "nextDispositionDt": "2015-02-01T21:52:55.000+0000",
+                      "caseModeCode": {
+                          "description": "Ongoing",
+                          "code": "OG"
+                      }
+                  },
+                  {
+                      "caseNum": 1001011693,
+                      "diActionDt": "2015-02-01T21:52:55.000+0000",
+                      "diTransId": 101853119,
+                      "createDt": "2015-02-01T21:52:50.000+0000",
+                      "edbcRunDt": "2015-02-01T21:52:53.000+0000",
+                      "disposedSegments": [
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-03-01T06:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 4877314912,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-03-01T06:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 4877314907,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-03-01T06:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 4877314908,
+                              "status": "C"
+                          }
+                      ],
+                      "previousEdbcRunDt": "2015-01-07T10:02:47.000+0000",
+                      "nextEdbcRunDt": "2015-05-14T08:02:36.000+0000",
+                      "previousDispositionDt": "2015-01-07T10:02:48.000+0000",
+                      "nextDispositionDt": "2015-05-14T08:02:37.000+0000",
+                      "caseModeCode": {
+                          "description": "Ongoing",
+                          "code": "OG"
+                     }
+                  },
+                  {
+                      "caseNum": 1001011693,
+                      "diActionDt": "2015-05-14T08:02:37.000+0000",
+                      "diTransId": 108036382,
+                      "createDt": "2015-05-14T08:02:34.000+0000",
+                      "edbcRunDt": "2015-05-14T08:02:36.000+0000",
+                      "disposedSegments": [
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-05-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-05-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5182077642,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5182077643,
+                              "status": "C"
+                          },
+                         {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-05-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-05-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5182077638,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5182077639,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-05-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-05-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5182077640,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5182077641,
+                              "status": "C"
+                          }
+                      ],
+                      "previousEdbcRunDt": "2015-02-01T21:52:53.000+0000",
+                      "nextEdbcRunDt": "2015-06-25T05:40:21.000+0000",
+                      "previousDispositionDt": "2015-02-01T21:52:55.000+0000",
+                      "nextDispositionDt": "2015-06-25T05:40:25.000+0000",
+                      "caseModeCode": {
+                          "description": "Ongoing",
+                          "code": "OG"
+                      }
+                  },
+                  {
+                      "caseNum": 1001011693,
+                      "diActionDt": "2015-06-25T05:40:25.000+0000",
+                      "diTransId": 110230985,
+                      "createDt": "2015-06-25T05:40:18.000+0000",
+                      "edbcRunDt": "2015-06-25T05:40:21.000+0000",
+                      "disposedSegments": [
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-06-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5290370974,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5290370976,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5290370978,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5290370943,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5290370947,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5290370951,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5290370962,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5290370967,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5290370971,
+                              "status": "C"
+                          }
+                      ],
+                      "previousEdbcRunDt": "2015-05-14T08:02:36.000+0000",
+                      "nextEdbcRunDt": "2015-08-24T10:32:48.000+0000",
+                      "previousDispositionDt": "2015-05-14T08:02:37.000+0000",
+                      "nextDispositionDt": "2015-08-24T10:32:56.000+0000",
+                      "caseModeCode": {
+                          "description": "Ongoing",
+                          "code": "OG"
+                      }
+                  },
+                  {
+                      "caseNum": 1001011693,
+                      "diActionDt": "2015-08-24T10:32:56.000+0000",
+                      "diTransId": 113659658,
+                      "createDt": "2015-08-24T10:32:39.000+0000",
+                      "edbcRunDt": "2015-08-24T10:32:48.000+0000",
+                      "disposedSegments": [
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-06-18T05:00:00.000+0000",
+                              "benefitEndDt": "2014-06-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548724,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-07-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548725,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-08-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548726,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-09-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548727,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-10-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-10-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548728,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-11-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-11-30T06:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548729,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-12-01T06:00:00.000+0000",
+                              "benefitEndDt": "2014-12-31T06:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548730,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-01-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-01-31T06:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548731,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-02-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-02-28T06:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548732,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-03-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-03-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548735,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-04-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-04-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548736,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-05-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-05-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548737,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-06-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548738,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548740,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-08-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548742,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TP09",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-09-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548745,
+                              "status": "C"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TP09",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-10-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5440548747,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548680,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548681,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548682,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-09-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548683,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-10-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-10-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548684,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-11-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-11-30T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548685,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-12-01T06:00:00.000+0000",
+                              "benefitEndDt": "2014-12-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548686,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-01-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-01-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548687,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-02-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-02-28T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548688,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-03-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-03-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548689,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-04-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-04-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548691,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-05-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-05-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548693,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548695,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548697,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548700,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-09-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548749,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-10-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                             "edgTraceId": 5440548750,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548707,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548708,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548709,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-09-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548710,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-10-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-10-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548711,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-11-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-11-30T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548712,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-12-01T06:00:00.000+0000",
+                              "benefitEndDt": "2014-12-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548713,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-01-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-01-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548714,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-02-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-02-28T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548715,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-03-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-03-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548716,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-04-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-04-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548717,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-05-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-05-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548718,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548719,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548720,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548721,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-09-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548722,
+                              "status": "C"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-10-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548723,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP38",
+                              "edgNum": 643112386,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548701,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP38",
+                              "edgNum": 643112386,
+                              "benefitStartDt": "2015-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-09-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548704,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP38",
+                              "edgNum": 643112386,
+                              "benefitStartDt": "2015-10-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5440548706,
+                              "status": "C"
+                          }
+                      ],
+                      "previousEdbcRunDt": "2015-06-25T05:40:21.000+0000",
+                      "nextEdbcRunDt": "2015-08-27T05:50:58.000+0000",
+                      "previousDispositionDt": "2015-06-25T05:40:25.000+0000",
+                      "nextDispositionDt": "2015-08-27T05:51:04.000+0000",
+                      "caseModeCode": {
+                          "description": "Ongoing",
+                          "code": "OG"
+                      }
+                  },
+                  {
+                      "caseNum": 1001011693,
+                      "diActionDt": "2015-08-27T05:51:04.000+0000",
+                      "diTransId": 113871918,
+                      "createDt": "2015-08-27T05:50:39.000+0000",
+                      "edbcRunDt": "2015-08-27T05:50:58.000+0000",
+                      "disposedSegments": [
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-06-18T05:00:00.000+0000",
+                              "benefitEndDt": "2014-06-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243673,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-07-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243674,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-08-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243675,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-09-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243676,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-10-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-10-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243677,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-11-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-11-30T06:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243678,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2014-12-01T06:00:00.000+0000",
+                              "benefitEndDt": "2014-12-31T06:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243679,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-01-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-01-31T06:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243680,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-02-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-02-28T06:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243681,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-03-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-03-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243682,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-04-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-04-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243683,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-05-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-05-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243684,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-06-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243685,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TA52",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243686,
+                              "status": "A"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TP09",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-08-31T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243687,
+                              "status": "R"
+                          },
+                          {
+                              "program": "FS",
+                              "toa": "TP09",
+                              "edgNum": 628315490,
+                              "benefitStartDt": "2015-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-09-30T05:00:00.000+0000",
+                              "applicationDt": "2014-06-18T05:00:00.000+0000",
+                              "edgTraceId": 5450243688,
+                              "status": "R"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243638,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243639,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243640,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-09-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243641,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-10-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-10-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243642,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-11-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-11-30T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243643,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2014-12-01T06:00:00.000+0000",
+                              "benefitEndDt": "2014-12-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243644,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-01-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-01-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243645,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-02-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-02-28T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243646,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-03-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-03-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243647,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-04-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-04-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243648,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-05-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-05-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243649,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243650,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243651,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP13",
+                              "edgNum": 327315,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243689,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243656,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243657,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243658,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-09-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243659,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-10-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-10-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243660,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-11-01T05:00:00.000+0000",
+                              "benefitEndDt": "2014-11-30T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243661,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2014-12-01T06:00:00.000+0000",
+                              "benefitEndDt": "2014-12-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243662,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-01-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-01-31T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243663,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-02-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-02-28T06:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243664,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-03-01T06:00:00.000+0000",
+                              "benefitEndDt": "2015-03-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243665,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-04-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-04-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243666,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-05-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-05-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243667,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-06-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-06-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243668,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243669,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243670,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-09-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243671,
+                              "status": "A"
+                          },
+                          {
+                              "program": "MC",
+                              "toa": "TP24",
+                              "edgNum": 81253886,
+                              "benefitStartDt": "2015-10-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243672,
+                              "status": "C"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP38",
+                              "edgNum": 643112386,
+                              "benefitStartDt": "2015-07-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-07-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243652,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP38",
+                              "edgNum": 643112386,
+                              "benefitStartDt": "2015-08-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-08-31T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243653,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP38",
+                              "edgNum": 643112386,
+                              "benefitStartDt": "2015-09-01T05:00:00.000+0000",
+                              "benefitEndDt": "2015-09-30T05:00:00.000+0000",
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243654,
+                              "status": "A"
+                          },
+                          {
+                              "program": "ME",
+                              "toa": "TP38",
+                              "edgNum": 643112386,
+                              "benefitStartDt": "2015-10-01T05:00:00.000+0000",
+                              "benefitEndDt": null,
+                              "applicationDt": "1988-08-17T05:00:00.000+0000",
+                              "edgTraceId": 5450243655,
+                              "status": "C"
+                          }
+                      ],
+                      "previousEdbcRunDt": "2015-08-24T10:32:48.000+0000",
+                      "nextEdbcRunDt": "2015-12-09T15:37:16.000+0000",
+                      "previousDispositionDt": "2015-08-24T10:32:56.000+0000",
+                      "nextDispositionDt": "2015-12-09T15:39:54.000+0000",
+                      "caseModeCode": {
+                          "description": "Ongoing",
+                          "code": "OG"
+                      }
+                  }
+              ]
+          }
+      }
+}
+  

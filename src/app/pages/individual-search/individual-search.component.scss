@@ -1,0 +1,162 @@
+.search-input-label {
+    font-size: 1.2rem;
+    width: 10rem;
+}
+
+.inquiry-field {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 20rem !important;
+}
+
+.ii-btn {
+    border-radius: 4px;
+}
+
+.ii-page-con {
+    border: 1px solid #afaeae;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.li-table-con {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.li-table-head {
+    background: #ececed;
+}
+
+.in-table td {
+    border-top: 0px !important;
+}
+
+.in-table th {
+    border: 2px solid #bdbcbc !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.li-th-bg {
+    background: #c0c3c5;
+}
+
+.case-number {
+    background: none;
+    cursor: pointer;
+    color: blue;
+    border: none;
+}
+
+.case-btn {
+    margin-left: 10px;
+}
+
+.cml-1 {
+    margin-left: 1rem;
+}
+
+.thead-color {
+    background-color: #dadada;
+}
+
+.individual-table th,
+.individual-table td {
+    padding: 0.5rem;
+    vertical-align: top;
+    border-top: 1px solid #ffffff;
+    border-right: 3px solid #fff;
+}
+
+.individual-table tbody tr:hover {
+    background-color: #81D3F8;
+}
+
+.individual-table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #aba8a8;
+    border-right: 3px solid #fff;
+}
+
+.individual-table th:first-child {
+    border-left: 1px solid #aba8a8;
+}
+
+.individual-table th:last-child {
+    border-right: 1px solid #aba8a8;
+}
+
+.individual-table tr:last-child td {
+    border-bottom: 1px solid #aba8a8;
+}
+
+.individual-table tr:last-child td:first-child {
+    border-left: 1px solid #aba8a8;
+}
+
+.individual-table tr:last-child td:last-child {
+    border-right: 1px solid #aba8a8;
+}
+
+.pd-r-0 {
+    padding-right: 0px !important;
+}
+
+.pd-r-10 {
+    padding-right: 10px;
+}
+
+.search-btn-ind {
+    margin-left: 60%;
+}
+
+@media screen and (min-width: 2390px) {
+    .search-btn-ind {
+        margin-left: 60%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .search-btn-ind {
+        margin-left: 65%;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1201px) {
+    .search-btn-ind {
+        margin-left: 75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-width {
+        width: 100%;
+    }
+
+    .sm-top {
+        margin-top: 1rem !important;
+    }
+
+    .sm-top-2 {
+        margin-top: 2rem;
+    }
+
+    .individual-table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .pd-r-0 {
+        padding-right: 15px !important;
+    }
+
+    .mt-3 {
+        margin-top: 10px !important;
+    }
+}

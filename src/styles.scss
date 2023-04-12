@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import './assets/styles/custom-bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//@import './assets/styles/theme.scss';
+//@import './assets/styles/lib1.scss';
+
+@import "./assets/styles/common.scss";
+@import "./assets/styles/font-style.scss";
+@import '~@swimlane/ngx-datatable/index.css';
+@import '~@swimlane/ngx-datatable/themes/material.scss';
+@import '~@swimlane/ngx-datatable/assets/icons.css';

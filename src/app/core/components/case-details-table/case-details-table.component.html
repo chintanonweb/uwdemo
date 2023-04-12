@@ -1,0 +1,57 @@
+<table class="table sub-details-table">
+    <thead class="">
+        <tr>
+            
+            <th scope="col" class="th-bt th-bl-0 sortable-column" (click)="sortBy(i,'program')">Program
+
+                <span *ngIf="sortApplied && sortedTable==i && columnSelected=='program'; else p ">
+                    <fa-icon *ngIf="direction=='asc'" [icon]="faArrowUp"></fa-icon>
+                    <fa-icon *ngIf="direction=='desc'" [icon]="faArrowDown"></fa-icon>
+                </span>
+                <ng-template #p>
+                    <span>
+                        <fa-icon [icon]="faSort"></fa-icon>
+                    </span>
+                </ng-template>
+            </th>
+            <th scope="col" class="th-bt">EDG #
+            </th>
+            <th scope="col" class="th-bt sortable-column" (click)="sortBy(i,'toa')">TOA
+                <span *ngIf="sortApplied && sortedTable==i && columnSelected=='toa'; else t">
+                    <fa-icon *ngIf="direction=='asc'" [icon]="faArrowUp"></fa-icon>
+                    <fa-icon *ngIf="direction=='desc'" [icon]="faArrowDown"></fa-icon>
+                </span>
+                <ng-template #t>
+                    <span>
+                        <fa-icon [icon]="faSort"></fa-icon>
+                    </span>
+                </ng-template>
+            </th>
+            <th scope="col" class="th-bt sortable-column" (click)="sortBy(i,'benefitStartDt')">Benefit Start Dt
+                <span *ngIf="sortApplied && sortedTable==i && columnSelected=='benefitStartDt'; else bt">
+                    <fa-icon *ngIf="direction=='asc'" [icon]="faArrowUp"></fa-icon>
+                    <fa-icon *ngIf="direction=='desc'" [icon]="faArrowDown"></fa-icon>
+                </span>
+                <ng-template #bt>
+                    <span>
+                        <fa-icon [icon]="faSort"></fa-icon>
+                    </span>
+                </ng-template>
+            </th>
+            <th scope="col" class="th-bt">Benefit End Dt
+            </th>
+            <th scope="col" class="th-bt th-br-0">Application Dt
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let program of disposedSegments">
+            <td class="th-bl-0">{{program.program}}</td>
+            <td>{{program.edgNum}}</td>
+            <td>{{program.toa}}</td>
+            <td>{{program.benefitStartDt | date: 'mediumDate'}}</td>
+            <td>{{program.benefitEndDt | date: 'mediumDate'}}</td>
+            <td class="th-br-0">{{program.applicationDt | date: 'mediumDate'}}</td>
+        </tr>
+    </tbody>
+</table>

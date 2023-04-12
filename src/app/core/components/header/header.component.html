@@ -1,0 +1,23 @@
+<header>
+  <div class="page-padding head-con">
+    <div class="user-info">
+      <span aria-label="username" *ngIf="name | async as name">
+        Welcome, {{name}}
+      </span>
+      <span ar-a-label="date">{{getDate() | date: 'MM dd, yyyy'}}</span>
+      <!-- <span class="dot">.</span>-->
+      <span class="separetor2">,</span>
+      <span class="fw-600 logout" (click)="signOut()">Logout</span>
+    </div>
+    <div class="row">
+      <div role="bannerimage" class="col-lg-3 col-md-3 col-sm-12">
+        <img class="logo" alt="Texas health and human services logo" src="assets/images/hhs_logo.png" />
+      </div>
+      <div role="application title" class="col-lg-9 col-md-9 col-sm-12 page-img-container">
+        <div aria-label="Historic case reports logo"><img class="page-img" alt="Historic case reports logo"
+            src="assets/images/stacks.png" /></div>
+        <h1 class="page-title-text">TIERS Historical Case Report</h1>
+      </div>
+    </div>
+  </div>
+</header>

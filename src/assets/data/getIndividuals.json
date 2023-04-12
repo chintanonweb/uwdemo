@@ -1,0 +1,43 @@
+{
+    "status": "SUCCESS",
+    "errorDetail": null,
+    "data": {
+      "output": {
+        "individualInquiryInfos": [
+          {
+            "name": "Patricia Leona Schmidt",
+            "ssn": "455851580",
+            "individualId": "527521240",
+            "birthDate": "1972-11-06T06:00:00.000+0000",
+            "address": "113 A Jason Drive, Copperas Cove, TX - 76522",
+            "caseNumber": "1011094596"
+          },
+          {
+            "name": "Patricia Leona Schmidt",
+            "ssn": "455851580",
+            "individualId": "527521240",
+            "birthDate": "1972-11-06T06:00:00.000+0000",
+            "address": "113 Jason, Apt # A, Copperas Cove, TX - 76522",
+            "caseNumber": "1011933837"
+          },
+          {
+            "name": "Patricia Leona Schmidt",
+            "ssn": "455851580",
+            "individualId": "527521240",
+            "birthDate": "1972-11-06T06:00:00.000+0000",
+            "address": "113A Jason, Copperas Cove, TX - 76522",
+            "caseNumber": "1013512750"
+          },
+          {
+            "name": "Patricia Leona Schmidt",
+            "ssn": "455851580",
+            "individualId": "527521240",
+            "birthDate": "1972-11-06T06:00:00.000+0000",
+            "address": "3414 Fm 1113, Copperas Cove, TX - 76522",
+            "caseNumber": "1020102916"
+          }
+        ]
+      }
+    }
+}
+  

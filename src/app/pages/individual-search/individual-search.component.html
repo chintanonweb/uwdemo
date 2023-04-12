@@ -1,0 +1,120 @@
+<ngx-ui-loader></ngx-ui-loader>
+
+<main>
+    <div role="Individual search" class="page-padding mrt-1">
+        <div class="form-border">
+            <h2 class="page-sub-header-font">
+                Individual Search
+            </h2>
+            <div class="mrt-2 li-table-con error" *ngIf="enableWarning">
+                <div class="ml-2">{{validationMessage}}</div>
+
+            </div>
+            <div class="mrt-2 li-table-con error" *ngIf="!indSearchList.length">
+                <div class="ml-2 " *ngIf="errorFlag; else noresults">{{errorMsg}}</div>
+                <ng-template #noresults>{{noResultsMsg}}</ng-template>
+            </div>
+            <form [formGroup]="formData" (ngSubmit)="search()">
+                <div class="form-width p-0 p-md-3 mx-0  mx-md-4 border-info rounded sm-top-2">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <custom-input-text formControlName="lastName" [id]="getId('lastName')"
+                                        [field]="fields.lastName" (change)="formElemChange($event)"></custom-input-text>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <custom-input-text formControlName="firstName" [id]="getId('firstName')"
+                                        [field]="fields.firstName"
+                                        (change)="formElemChange($event)"></custom-input-text>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <custom-input-text formControlName="middleName" [id]="getId('middleName')"
+                                        [field]="fields.middleName"
+                                        (change)="formElemChange($event)"></custom-input-text>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <custom-input-text formControlName="indvNumber" [id]="getId('indvNumber')"
+                                        (change)="formElemChange($event)" [field]="fields.indvNumber">
+                                    </custom-input-text>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <custom-input-text formControlName="ssn" [id]="getId('ssn')" [field]="fields.ssn"
+                                        (change)="formElemChange($event)"></custom-input-text>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12"></div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class=" mt-3">
+                                <div class="row">
+                                    <div class="col-3"></div>
+                                    <div class="col-3">
+                                        <button class="btn search-btn search-btn-ind " type="submit"
+                                            [attr.id]="getId('submitBtn')"
+                                            [disabled]="formData.invalid || ( !this.formData.value.lastName  &&  !this.formData.value.middleName  && !this.formData.value.firstName  && !this.formData.value.indvNumber && !this.formData.value.ssn)">Search</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="mrt-2 li-table-con" *ngIf="searchFlag">
+            <div *ngIf="indSearchList.length">
+                <div class="mrt-1 mrb-1 page-sub-header-font">
+                    Search Results
+                </div>
+                <table class="table table-cl individual-table">
+                    <thead class="table-head">
+                        <tr>
+                            <th scope="col">name</th>
+                            <th scope="col">Individual #</th>
+                            <th scope="col">SSN</th>
+                            <th scope="col">Date Of Birth</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Case #</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let indSearchitem of indSearchList">
+                            <td>{{indSearchitem?.name}}</td>
+                            <td>{{indSearchitem?.individualId}}</td>
+                            <td>{{indSearchitem?.ssn}}</td>
+                            <td>{{indSearchitem?.birthDate | date:'mediumDate'}}</td>
+                            <td>{{indSearchitem?.address}}</td>
+                            <td>
+                                <button class="case-number"
+                                    (click)="gotoCaseInquiry(indSearchitem.caseNumber)">{{indSearchitem?.caseNumber}}</button>
+                            </td>
+                            <!-- <td class="case-number" (click)="gotoCaseInquiry(indSearchitem.caseNumber)">
+    
+                                {{indSearchitem?.caseNumber}}
+                            </td> -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+        <!-- <div class="mrt-2 error" *ngIf="errorFlag">
+            {{errorMsg}}
+        </div> -->
+
+    </div>
+</main>

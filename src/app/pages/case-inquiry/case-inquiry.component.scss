@@ -1,0 +1,290 @@
+::ng-deep {
+    app-case-inquiry {
+        @media (max-width: 900px) {
+            .contorlColWidth {
+                padding: 0;
+            }
+        }
+
+        .search-btn {
+            margin-left: 22%;
+        }
+
+        @media screen and (min-width: 1900px) {
+            .search-btn {
+                margin-left: 18%;
+            }
+        }
+
+        @media screen and (min-width: 2400px) {
+            .search-btn {
+                margin-left: 14%;
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+            .search-btn {
+                margin-left: -35% !important;
+            }
+        }
+    }
+}
+
+.search-input-label {
+    font-size: 1.2rem;
+    width: 10rem;
+}
+
+.inquiry-field {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 20rem !important;
+}
+
+.ii-btn {
+    border-radius: 4px;
+}
+
+.ii-page-con {
+    border: 1px solid #afaeae;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.li-table-con {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.li-table-head {
+    background: #ececed;
+}
+
+.in-table td {
+    border-top: 0px !important;
+}
+
+.in-table th {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.33rem;
+}
+
+.li-th-bg {
+    background: #c0c3c5;
+}
+
+.form-con-sd {
+    display: flex;
+    align-items: baseline;
+}
+
+.mr-2 {
+    margin-right: 2rem !important;
+}
+
+.text-middle {
+    vertical-align: middle;
+}
+
+.case-table {
+    //tr:nth-child(even) {background-color: #f2f2f2;}
+}
+
+.case-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.case-erroe {
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.case-btn {
+    margin-left: 10px;
+}
+
+.from-rta {
+    margin-right: 10rem !important;
+}
+
+@media screen and (max-width: 600px) {
+    .from-rta {
+        margin-right: 0rem !important;
+    }
+
+    .form-fields {
+        margin-top: 16px;
+    }
+}
+
+.date-error {
+    position: absolute;
+    margin-left: 123px;
+    z-index: 5;
+    margin-top: 0.28rem;
+    font-size: 0.75rem;
+    line-height: 1;
+    color: #e31c3d;
+}
+
+.case-details-container {
+    margin-left: 5rem;
+    font-size: .875rem;
+}
+
+.mrl-3 {
+    margin-left: 3rem;
+}
+
+.mrl-10 {
+    margin-left: 10rem;
+}
+
+.case-details-table,
+.case-details-table td,
+.case-details-table th {
+    border: 1px solid #b1aeae;
+    font-size: .75rem;
+}
+
+.td-pd {
+    padding: 0px !important;
+}
+
+.th-bt {
+    border-top: 0px !important;
+}
+
+.generate-report-btn {
+    text-align: left;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.mar-top-20 {
+    margin-top: 20px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.date-container {
+    border: 1px solid #8b8888;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.width-80 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.date-text {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.date-search-btn {
+    height: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.3rem;
+    font-weight: 700;
+}
+
+#startDate {
+    width: 10rem;
+}
+
+.sortable-column {
+    cursor: pointer;
+    color: #10498f;
+}
+
+.th-bl-0 {
+    border-left: 0px !important;
+}
+
+.th-br-0 {
+    border-right: 0px !important;
+}
+
+.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    border: 0.5px solid #b1aeae !important;
+}
+
+.error {
+    padding: 2rem 5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .case-details-table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .case-details-container {
+        width: 100%;
+    }
+
+    .date-container {
+        width: 100%;
+    }
+
+    .details-container {
+        display: block;
+    }
+
+    .case-details-container {
+        margin-left: 0rem !important;
+    }
+
+    .name-container {
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    .name-lable {
+        margin-left: 0px !important;
+    }
+
+    .end-date {
+        margin-top: 10px;
+    }
+
+    .date-search-btn {
+        margin-top: 10px;
+    }
+}

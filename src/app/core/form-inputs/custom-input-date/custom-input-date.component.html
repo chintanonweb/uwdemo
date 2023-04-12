@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-3 text-right">
+    <label [attr.for]="id" [attr.class]="'labelColWidth text-nowrap text-left'">
+      {{field.label}}
+      <span *ngIf="required"> <i class="fas fa-asterisk" alt="required"><span class="sr-only">required</span></i></span>
+    </label>
+  </div>
+  <div class="col">
+    <div class="contorlColWidth">
+      <div class="input-group">
+        <input #d (focusout)="formatdate(this);" [attr.type]="'text'" [(ngModel)]="value"
+          [attr.id]="id" [attr.name]="id" [disabled]="disabled"
+          [attr.placeholder]="field.placeholder" [attr.maxlength]="field.maxlength" ngbDatepicker #cal="ngbDatepicker"
+          [minDate]="minDate" [maxDate]="maxDate" (keydown)="validDate($event)" (keyup)="validDate($event)"
+          (ngModelChange)="onTouched($event);" [attr.aria-required]="required" [attr.aria-describedby]="err_id">
+        <div class="input-group-append">
+          <span class="date-icon-pd">
+            <a (click)="cal.toggle()" class="nostylelnk calendarLnk" title="Calendar" aria-label="Calendar">
+              <img class="ml-2" src="assets/images/calendar.svg" aria-hidden="true" alt="calender">
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span aria-live="assertive" [attr.id]="err_id"> <i class="field-error">{{error}}</i> </span>
+</div>
